@@ -1,0 +1,4 @@
+# Zero-legacy manifest for aien-dev/.github (aien-architecture-mv #300 / #316).
+# Read by tools/zero-legacy/closure.om as its MANIFEST argument; `data P` declares path prefix P
+# (relative to the repository root) as non-executable data. See that tool's README, section Manifest.
+data profile/aien-butterfly.webp
