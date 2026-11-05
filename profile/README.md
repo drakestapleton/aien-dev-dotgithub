@@ -123,7 +123,7 @@ The whole system is Sovereign Intelligence (SI) ([ADR 0045](https://github.com/a
 | [interplane.io](https://github.com/aien-dev/interplane.io) | Source of interplane.io, rebuilt hourly from the Spark. |
 | [t3code](https://github.com/aien-dev/t3code) | Fork of t3code holding one pending contribution (MIT). |
 
-Archived repositories are not listed. Few directories carry a `.crumb` yet (17 of 780 tracked directories in aien-sovereign-core-mv, none with an invariant that names a check, measured 2026-10-31 on `main` `43495111` by `om/crumb-coverage/run.sh` from draft PR [aien-dev/aien-sovereign-core-mv#887](https://github.com/aien-dev/aien-sovereign-core-mv/pull/887)); the crumb check is advisory and does not block a merge unless DRA-93 makes it required.
+Archived repositories are not listed. Few directories carry a `.crumb` yet (46 of 795 tracked directories in aien-sovereign-core-mv, 30 of them with at least one invariant that names an existing check, measured 2026-11-05 on `main` `2ef3e06c` by [`om/crumb-coverage/run.sh`](https://github.com/aien-dev/aien-sovereign-core-mv/blob/main/om/crumb-coverage/run.sh)); the crumb check is advisory and does not block a merge unless DRA-93 makes it required.
 
 ## Research
 
