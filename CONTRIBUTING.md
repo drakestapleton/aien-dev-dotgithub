@@ -13,6 +13,12 @@ This file applies to every `aien-dev` repository that does not carry its own
   `VERSIONING.md` there. Specifications are licensed under the Community
   Specification License 1.0, not the Apache License 2.0.
 
+## Human-Directed Agentic Engineering
+
+Development follows Human-Directed Agentic Engineering (HDAE): humans define goals, architecture, constraints, acceptance criteria and stopping points; agents implement, execute checks, diagnose failures and revise within those boundaries. Human review retains responsibility for claims, acceptance and release decisions. This describes the development method, not permission for an agent to merge, publish or operate hardware.
+
+For the documented method and systems-software case study, see Gregory M. Kurtzer, *Ginux: Building an Independent Kernel That Runs Linux Userspace through Human-Directed Agentic Engineering* (2026), [doi:10.5281/zenodo.23682548](https://doi.org/10.5281/zenodo.23682548).
+
 ## Pull requests
 
 1. Work on a branch named for what it does.
@@ -74,4 +80,9 @@ request; open an issue instead and the Maintainer will discuss an alternative.
 
 ## Code of conduct
 
-See `AGENT_CODE_OF_CONDUCT.md`. A repository's own file takes precedence.
+People follow `CODE_OF_CONDUCT.md` (Contributor Covenant 3.0). Autonomous
+agents follow https://www.aienos.com/agents/RULES.md and the repository's own
+`AGENTS.md` (or `CLAUDE.md`); those are the only binding agent rules.
+`AGENT_CODE_OF_CONDUCT.md` is a statement of values. How decisions are made, and
+the rule that donors do not direct the work, are in `GOVERNANCE.md`. A
+repository's own file takes precedence.

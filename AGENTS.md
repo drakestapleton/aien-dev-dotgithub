@@ -1,6 +1,6 @@
 # aien-dev/.github (organization profile and community defaults)
 
-> The special `.github` repository of the `aien-dev` GitHub organization. It holds the organization profile shown at https://github.com/aien-dev (`profile/README.md`) and the default community files that GitHub applies to every `aien-dev` repository without its own copy: `CONTRIBUTING.md`, `SECURITY.md`, `AGENT_CODE_OF_CONDUCT.md`, the pull request template and the issue template. There is no code, no build and no CI here.
+> The special `.github` repository of the `aien-dev` GitHub organization. It holds the organization profile shown at https://github.com/aien-dev (`profile/README.md`) and the default community files that GitHub applies to every `aien-dev` repository without its own copy: `CONTRIBUTING.md`, `SECURITY.md`, `CODE_OF_CONDUCT.md`, `GOVERNANCE.md`, the pull request template and the issue template. `AGENT_CODE_OF_CONDUCT.md` sits beside them; GitHub does not apply it automatically, so the others link to it. There is no code, no build and no CI here.
 
 Shared rules: read https://www.aienos.com/agents/RULES.md first. This file adds what is specific to this repository; where the two differ, this file wins here.
 
@@ -12,9 +12,11 @@ Shared rules: read https://www.aienos.com/agents/RULES.md first. This file adds 
   - `profile/README.md`: the organization front page. Its images live in `profile/` and `profile/assets/` and are referenced by relative path.
   - `CONTRIBUTING.md`: pull request rules, inbound licensing and the Contributor License Agreement.
   - `SECURITY.md`: private vulnerability reporting.
-  - `AGENT_CODE_OF_CONDUCT.md`: the governance standard for autonomous agents.
+  - `AGENT_CODE_OF_CONDUCT.md`: a statement of values for autonomous agents. It binds no agent; RULES.md and each repository's `AGENTS.md` do.
+  - `CODE_OF_CONDUCT.md`: the Contributor Covenant 3.0 for people, with the reporting address filled in.
+  - `GOVERNANCE.md`: the project charter, Technical Steering Committee rules, donor policy, vendor-neutral backend policy and release signing. Two thresholds are marked TBD for the maintainer.
   - `.github/PULL_REQUEST_TEMPLATE.md` and `.github/ISSUE_TEMPLATE/implementation-initiative.md`: the fallback templates.
-  - `CONSTITUTION.md` and `COVENANT.md`: statements of values. `COVENANT.md` says it grants and restricts no legal rights.
+  - `CONSTITUTION.md`, `COVENANT.md` and `GOVERNANCE.md`: statements of values; each opens with a line saying it binds no agent. `COVENANT.md` says it grants and restricts no legal rights.
   - `LICENSE` (Apache License 2.0) and `NOTICE` (copyright and trademark notice).
 
 ## Installation
@@ -54,7 +56,7 @@ There is no local renderer. To check how a Markdown change renders, push the bra
 
 ## Safety and approvals
 
-- Ask the maintainer before changing `LICENSE`, `NOTICE`, the licensing or Contributor License Agreement sections of `CONTRIBUTING.md`, the reporting channels in `SECURITY.md`, or `AGENT_CODE_OF_CONDUCT.md`. These bind every repository that falls back to them.
+- Ask the maintainer before changing `LICENSE`, `NOTICE`, the licensing or Contributor License Agreement sections of `CONTRIBUTING.md`, the reporting channels in `SECURITY.md` or `CODE_OF_CONDUCT.md`, `GOVERNANCE.md`, or `AGENT_CODE_OF_CONDUCT.md`. These bind every repository that falls back to them.
 - Never put a secret, a private address or personal data in the profile or a template; this repository is public and its files appear across the organization.
 - `main` is protected and the protection applies to administrators. Work on a branch and merge through a pull request; never force-push.
 
@@ -62,5 +64,6 @@ There is no local renderer. To check how a Markdown change renders, push the bra
 
 - `CONTRIBUTING.md`: how changes are accepted, licensing, the Contributor License Agreement.
 - `SECURITY.md`: how to report a vulnerability.
-- `AGENT_CODE_OF_CONDUCT.md`: rules for autonomous agents across `aien-dev`.
+- `AGENT_CODE_OF_CONDUCT.md`: the values behind the agent rules. The binding rules are https://www.aienos.com/agents/RULES.md and each repository's `AGENTS.md`.
+- `CODE_OF_CONDUCT.md` and `GOVERNANCE.md`: conduct for people, and how the project is governed.
 - `profile/README.md`: what AIEN is, the machines, and how a change gets into the core repositories.
