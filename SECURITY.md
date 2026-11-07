@@ -44,9 +44,9 @@ This project has one maintainer; the targets below are best effort and stated ho
 
 ## Supported versions
 
-AienOS is in alpha testing. The alpha bundle (Core engine, Omega install wizard, CUDA++ user-space
-replacement) is distributed through GitHub Releases on
-[aienos-releases](https://github.com/aien-dev/aienos-releases); only the latest alpha release and
+AienOS is in alpha testing. The alpha bundle (Core engine, Omega install wizard and the CUDApp GPU
+runtime) is distributed through GitHub Releases on
+[sovereign-intelligence](https://github.com/aien-dev/sovereign-intelligence/releases); only the latest alpha release and
 `main` are supported. The other AIEN repositories are research-grade, pre-alpha software with no
 public release; reports for them are handled against `main`. Reports against older commits are
 welcome but fixes land on the default branch only.
