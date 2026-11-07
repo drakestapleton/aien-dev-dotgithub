@@ -123,7 +123,7 @@ The whole system is Sovereign Intelligence (SI) ([ADR 0045](https://github.com/a
 | [interplane.io](https://github.com/aien-dev/interplane.io) | Source of interplane.io, rebuilt hourly from the Spark. |
 | [t3code](https://github.com/aien-dev/t3code) | Fork of t3code holding one pending contribution (MIT). |
 
-Archived repositories are not listed. Few directories carry a `.crumb` yet (46 of 795 tracked directories in aien-sovereign-core-mv, 30 of them with at least one invariant that names an existing check, measured 2026-11-05 on `main` `2ef3e06c` by [`om/crumb-coverage/run.sh`](https://github.com/aien-dev/aien-sovereign-core-mv/blob/main/om/crumb-coverage/run.sh)); the crumb check is advisory and does not block a merge unless DRA-93 makes it required.
+Archived repositories are not listed. Shipped-path directories carry a hand-written `.crumb` whose invariants each name the test or script that enforces them: each of the 29 workspace crates that build `aien-serve-http` in aien-sovereign-core-mv, and `installer/` in sovereign-intelligence. The rest of the tree mostly has none: 47 of 815 tracked directories in aien-sovereign-core-mv carry a `.crumb`, 33 of them with at least one invariant that names an existing check (measured 2026-11-07 at [`e39cbc13`](https://github.com/aien-dev/aien-sovereign-core-mv/commit/e39cbc13035ffe62f389b20ab563e6d681ebd7a7) by [`om/crumb-coverage/run.sh`](https://github.com/aien-dev/aien-sovereign-core-mv/blob/main/om/crumb-coverage/run.sh)). The crumb check is advisory and does not block a merge unless DRA-93 makes it required.
 
 ## Research
 
